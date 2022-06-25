@@ -1,0 +1,53 @@
+.title {
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.link {
+  color: #252422;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #252422;
+  text-decoration: underline;
+}
+
+.authorContainer {
+  display: flex;
+  height: 20px;
+}
+
+.authorIcon {
+  line-height: 20px;
+  margin-right: 5px;
+}
+
+.authorText {
+  color: #818ea3;
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+.subtitle {
+  color: #818ea3;
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.noComments {
+  padding: 70px 20px;
+  text-align: center;
+}
